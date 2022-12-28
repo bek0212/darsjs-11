@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    transition: all ease 0.8s;
+}
+
+body{
+    background-image: url(../img/images.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.container{
+    margin: 50px auto;
+    width: 200px;
+    height: 320px;
+    background: none;
+}
+input{
+    margin: 10px auto;
+    padding: 5px 10px;
+    background: linear-gradient(110deg, rgb(238, 135, 135), rgb(243, 100, 100));
+    color: white;
+    border-radius: 5px;
+}
+button{
+    
+    margin: 10px 50px auto;
+    padding: 5px 10px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+button:active{
+    border: none;
+    background-color: red;
+    color: white;
+}
